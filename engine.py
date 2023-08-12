@@ -23,7 +23,7 @@ class Engine(InGame, Api, SelEngine):
         payload = {
             "etape": "start",
         }
-        self.send_request("artiesEnCours.php", payload)
+        self.send_request("partiesEnCours.php", payload)
 
     def join_room(self, is_multiplayer: bool = True, has_player: int = 3):
         if is_multiplayer:
