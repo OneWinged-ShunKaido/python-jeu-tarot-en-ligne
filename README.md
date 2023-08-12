@@ -2,9 +2,7 @@
 Play online tarot from "www.jeu-tarot-en-ligne.com" through python
 
 requirements:
-```md
-pip install requests
-```
-```
-pip install websockets
-```
+
+`pip install requests`
+
+`pip install websockets`
