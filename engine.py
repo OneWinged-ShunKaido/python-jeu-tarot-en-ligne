@@ -8,8 +8,7 @@ from selmoteur import SelEngine
 
 class Engine(InGame, Api, SelEngine):
     """
-    engine code: https://www.jeu-tarot-en-ligne.com/Memos/IMPJCCFR__1.4.3.7.5.6.js
-    A port of the original js engine in python
+    A portage of the original js engine in python
     """
     codeVersion = "0.0.0.0.3"
 
